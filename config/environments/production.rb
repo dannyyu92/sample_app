@@ -4,7 +4,7 @@ SampleApp::Application.configure do
   # and use secure cookies. 
   config.force_ssl = true
 
-  config.assets.precompile += ['static_pages.css']
+  config.assets.precompile += ['application.css']
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
